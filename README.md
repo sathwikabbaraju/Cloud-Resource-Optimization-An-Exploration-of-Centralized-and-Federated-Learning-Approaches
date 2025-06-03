@@ -12,7 +12,7 @@ This project was developed by **Sai Sathwik Abbaraju**. You can connect with me 
 
 ## Key Features & Accomplishments
 
-* **Comprehensive Data Pipeline:** Implemented robust data loading, cleaning, and preprocessing for a massive 18GB dataset from the MIT Supercloud system.
+* **Comprehensive Data Pipeline:** Implemented robust data loading, cleaning, and preprocessing for a massive 2TB dataset from the MIT Supercloud system.
 * **Advanced Feature Engineering:** Developed sophisticated features including lagged resource usage, rolling window statistics, and time-based indicators to capture complex temporal dependencies.
 * **Exploration of Federated Learning (FL):**
     * Designed and implemented a PyTorch Flower-based Federated Learning client-server architecture.
@@ -93,5 +93,5 @@ The centralized LSTM model demonstrated promising performance for **memory (RSS)
 
 ## Storage Requirements
 
-Please note that this project involves significant data processing and intermediate file generation. It is highly recommended to have at least **1TB of storage space** available for the full dataset and all generated intermediate files.
+Please note that this project involves significant data processing and intermediate file generation. It is highly recommended to have at least **3TB of storage space** available for the full dataset and all generated intermediate files.
 
