@@ -64,7 +64,7 @@ The exploration of Federated Learning highlights a path toward building these in
 
 My approach involved a meticulous multi-phase development:
 
-1.  **Data Ingestion & Preprocessing:** Faced with an 18GB dataset, I implemented chunk-based reading and memory-efficient data type conversions. I ensured data consistency and handled missing values, setting the foundation for robust analysis.
+1.  **Data Ingestion & Preprocessing:** Faced with an 2TBB dataset, I implemented chunk-based reading and memory-efficient data type conversions. I ensured data consistency and handled missing values, setting the foundation for robust analysis.
 2.  **Sophisticated Feature Engineering:** I designed and implemented a comprehensive set of features crucial for time-series prediction. This included:
     * **Lagged Features:** Capturing past resource usage to predict future trends.
     * **Rolling Statistics:** Calculating means and standard deviations over sliding windows to understand short-term trends and variability.
@@ -88,7 +88,7 @@ The centralized LSTM model demonstrated promising performance for **memory (RSS)
     * Consider **multi-task learning** approaches if correlations between different resource types can be leveraged.
 * **Addressing Zero-Inflated Data:** Investigate specialized techniques for predicting count data or zero-inflated distributions, possibly by modeling the probability of non-zero usage separately from the magnitude of usage.
 * **Hyperparameter Optimization:** Conduct systematic tuning of learning rate, batch size, LSTM hidden dimensions, number of layers, and regularization techniques.
-* **Hardware Scaling:** Migrate to a more powerful computing environment (e.g., cloud GPU instances) to fully leverage the entire 18GB dataset and explore longer sequence lengths or more complex models, especially if resuming Federated Learning.
+* **Hardware Scaling:** Migrate to a more powerful computing environment (e.g., cloud GPU instances) to fully leverage the entire 2TB dataset and explore longer sequence lengths or more complex models, especially if resuming Federated Learning.
 * **Interpretable AI:** Explore methods to understand which features contribute most to the model's predictions.
 
 ## Storage Requirements
