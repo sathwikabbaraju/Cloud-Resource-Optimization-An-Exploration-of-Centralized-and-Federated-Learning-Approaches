@@ -191,4 +191,3 @@ memory usage: 4.4+ GB
 
 Sample columns for feature engineering:
 ['CPUUtilization_lag_1', 'CPUUtilization_lag_2', 'CPUUtilization_lag_3', 'CPUUtilization_lag_4', 'CPUUtilization_lag_5', 'RSS_lag_1', 'RSS_lag_2', 'RSS_lag_3', 'RSS_lag_4', 'RSS_lag_5']
-(pythonProject) sathwik@SATHWIKs-MacBook-Air aws data %
